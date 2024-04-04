@@ -1,0 +1,30 @@
+.productDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    height: 100%;
+    margin: 10px;
+}
+
+.pagingBtn{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: white;
+    font-weight: bold;
+    /* border: 1px solid gray; */
+    border: none;
+    font-size: 10px;
+    color: #254F70;
+}
+
+.pagingBtn:disabled {
+    /* border: 1px solid blue; */
+    border: none;
+}
+
+.pagingBtn:hover{
+    cursor: pointer;
+    background-color: rgba(80, 164, 228, 0.5);
+}
